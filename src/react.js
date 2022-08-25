@@ -253,12 +253,12 @@ export default function App() {
       <h1>Emojinary</h1>
       <h2>Welcome User</h2>
       <p>
-        Emojis are AMAZING.Emojis influence our emotions, build better
-        relationships, and even help with learning. But many times we don't
-        really know what is the meaning of a particlar emoji in thousands of
-        Emojis. So, Here are some object emojis to find the meaning. You may
-        enter any object emoji in the input box here or click on any emoji down
-        beow to find out the meaning easily.
+         Emojis are AMAZING. Emojis influence our emotions, build better
+	 relationships and even help with learning. But many a time we don't
+	 know the meaning of a particular emoji in thousands of
+	 Emojis. So to help, here are some object emojis to find the meaning. You may
+	 enter any object emoji in the input box here or click on any emoji down
+	 below to find out the meaning conveniently.
       </p>
       <div>
         <input
