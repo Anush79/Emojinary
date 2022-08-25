@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500&family=Oleo+Script+Swash+Caps:wght@400;700&family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+.App {
+  font-family: "DynaPuff", cursive;
+  font-family: "Oleo Script Swash Caps", cursive;
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  margin: 25px 50px;
+  background: #f1d9c8;
+}
+h1 {
+  background-color: tomato;
+}
+::selection {
+  background-color: tomato;
+}
+p {
+  margin: 0px 30px;
+}
+button {
+  padding: 10px;
+  background-color: wheat;
+  border-radius: 10px;
+  font-weight: 900;
+  font-size: large;
+}
+
+input {
+  margin-top: 10px;
+  height: 40px;
+  width: 30pc;
+  font-size: 1.5rem;
+  text-align: center;
+}
+li {
+  list-style: none;
+  display: inline-flex;
+  font-size: 32px;
+  cursor: pointer;
+  margin: 0.5cm;
+}
+li:active {
+  background: tomato;
+}
+li:hover {
+  transform: scale(1.5);
+  transition: 0.4s linear;
+  background: tomato;
+  border-radius: 50%;
+}
+.meaning {
+  border: 3px dashed brown;
+  width: 41%;
+  margin: auto;
+  text-align: center;
+  font-size: 2rem;
+}
