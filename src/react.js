@@ -272,12 +272,15 @@ export default function App() {
     var userinput = event.target.value;
     var meaning = objecticons[userinput];
     var emoji = userinput;
-    if (meaning === undefined) {
-      meaning = "Oh No! this is not in our Emojinary";
-    } else {
+  
+    if (userinput in objecticons) {
       setmeaning(meaning);
       setemoji(emoji);
+    } else {
+      setmeaning("Oh No! this is not in our Emojinary");
+      setemoji(emoji);
     }
+  
   }
 
   function clickhandler(item) {
